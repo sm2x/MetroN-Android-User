@@ -1,0 +1,4 @@
+#Thu Dec 06 11:40:49 IST 2018
+base.0=W\:\\Nikola crypto\\smartcar_crypto_android_user\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\40
+path.0=classes.dex
+renamed.0=classes.dex

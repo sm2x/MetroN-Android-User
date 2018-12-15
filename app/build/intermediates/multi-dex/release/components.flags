@@ -1,0 +1,42 @@
+-injars 'W:\Nikola crypto\smartcar_crypto_android_user\app\build\intermediates\transforms\jarMerging\release\0.jar'
+-outjars 'W:\Nikola crypto\smartcar_crypto_android_user\app\build\intermediates\multi-dex\release\componentClasses.jar'
+
+-libraryjars 'C:\Users\asher\AppData\Local\Android\Sdk\build-tools\28.0.0\lib\shrinkedAndroid.jar'
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **
+-dontwarn **
+-printconfiguration 'W:\Nikola crypto\smartcar_crypto_android_user\app\build\intermediates\multi-dex\release\components.flags'
+
+
+# Referenced at W:\Nikola crypto\smartcar_crypto_android_user\app\build\intermediates\manifests\full\release\AndroidManifest.xml:67
+-keep class com.tronline.user.app.AppController {
+    <init>(...);
+}
+
+-keep public class * extends android.app.Instrumentation {
+    <init>();
+}
+
+-keep public class * extends android.app.Application {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.ir.** {
+    <fields>;
+    <methods>;
+}

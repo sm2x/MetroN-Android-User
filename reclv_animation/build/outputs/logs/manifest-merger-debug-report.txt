@@ -1,0 +1,35 @@
+-- Merging decision tree log ---
+manifest
+ADDED from W:\Nikola crypto\smartcar_crypto_android_user\reclv_animation\src\main\AndroidManifest.xml:2:1-51
+INJECTED from W:\Nikola crypto\smartcar_crypto_android_user\reclv_animation\src\main\AndroidManifest.xml:2:1-51
+INJECTED from W:\Nikola crypto\smartcar_crypto_android_user\reclv_animation\src\main\AndroidManifest.xml:2:1-51
+INJECTED from W:\Nikola crypto\smartcar_crypto_android_user\reclv_animation\src\main\AndroidManifest.xml:2:1-51
+INJECTED from W:\Nikola crypto\smartcar_crypto_android_user\reclv_animation\src\main\AndroidManifest.xml:2:1-51
+INJECTED from W:\Nikola crypto\smartcar_crypto_android_user\reclv_animation\src\main\AndroidManifest.xml:2:1-51
+INJECTED from W:\Nikola crypto\smartcar_crypto_android_user\reclv_animation\src\main\AndroidManifest.xml:2:1-51
+	package
+		ADDED from W:\Nikola crypto\smartcar_crypto_android_user\reclv_animation\src\main\AndroidManifest.xml:2:11-49
+		INJECTED from W:\Nikola crypto\smartcar_crypto_android_user\reclv_animation\src\main\AndroidManifest.xml
+		INJECTED from W:\Nikola crypto\smartcar_crypto_android_user\reclv_animation\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from W:\Nikola crypto\smartcar_crypto_android_user\reclv_animation\src\main\AndroidManifest.xml
+		ADDED from W:\Nikola crypto\smartcar_crypto_android_user\reclv_animation\src\main\AndroidManifest.xml:2:1-51
+		INJECTED from W:\Nikola crypto\smartcar_crypto_android_user\reclv_animation\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from W:\Nikola crypto\smartcar_crypto_android_user\reclv_animation\src\main\AndroidManifest.xml
+		ADDED from W:\Nikola crypto\smartcar_crypto_android_user\reclv_animation\src\main\AndroidManifest.xml:2:1-51
+		INJECTED from W:\Nikola crypto\smartcar_crypto_android_user\reclv_animation\src\main\AndroidManifest.xml
+uses-sdk
+INJECTED from W:\Nikola crypto\smartcar_crypto_android_user\reclv_animation\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from W:\Nikola crypto\smartcar_crypto_android_user\reclv_animation\src\main\AndroidManifest.xml
+INJECTED from W:\Nikola crypto\smartcar_crypto_android_user\reclv_animation\src\main\AndroidManifest.xml
+INJECTED from W:\Nikola crypto\smartcar_crypto_android_user\reclv_animation\src\main\AndroidManifest.xml
+INJECTED from W:\Nikola crypto\smartcar_crypto_android_user\reclv_animation\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from W:\Nikola crypto\smartcar_crypto_android_user\reclv_animation\src\main\AndroidManifest.xml
+		ADDED from W:\Nikola crypto\smartcar_crypto_android_user\reclv_animation\src\main\AndroidManifest.xml
+		INJECTED from W:\Nikola crypto\smartcar_crypto_android_user\reclv_animation\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from W:\Nikola crypto\smartcar_crypto_android_user\reclv_animation\src\main\AndroidManifest.xml
+		ADDED from W:\Nikola crypto\smartcar_crypto_android_user\reclv_animation\src\main\AndroidManifest.xml
+		INJECTED from W:\Nikola crypto\smartcar_crypto_android_user\reclv_animation\src\main\AndroidManifest.xml

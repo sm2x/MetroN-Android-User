@@ -1,0 +1,10 @@
+#Thu Dec 06 12:20:45 IST 2018
+path.2=classes3.dex
+path.1=classes2.dex
+path.0=classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+base.2=W\:\\Nikola crypto\\smartcar_crypto_android_user\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\56
+base.1=W\:\\Nikola crypto\\smartcar_crypto_android_user\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\56
+base.0=W\:\\Nikola crypto\\smartcar_crypto_android_user\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\56

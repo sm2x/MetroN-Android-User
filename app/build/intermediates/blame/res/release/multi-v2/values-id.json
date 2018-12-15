@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "W:\\Nikola crypto\\smartcar_crypto_android_user\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-id\\values-id.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\asher\\.gradle\\caches\\transforms-1\\files-1.1\\facebook-android-sdk-4.16.1.aar\\9226a65ca9cf2ff1dfa6b397fadf1e2d\\res\\values-id\\values-id.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,217,342,456,555,622,690,749,820,891,988,1061,1134,1218,1321,1385,1452",
+                        "endColumns": "161,124,113,98,66,67,58,70,70,96,72,72,83,102,63,66,138",
+                        "endOffsets": "212,337,451,550,617,685,744,815,886,983,1056,1129,1213,1316,1380,1447,1586"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\asher\\.gradle\\caches\\transforms-1\\files-1.1\\zxing-android-embedded-3.2.0.aar\\5c03ea680a95f8a7f6bd74e924b3fb10\\res\\values-id\\values-id.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,114,161,293",
+                        "endColumns": "58,46,131,108",
+                        "endOffsets": "109,156,288,397"
+                    },
+                    "to": {
+                        "startLines": "19,20,21,22",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "1591,1650,1697,1829",
+                        "endColumns": "58,46,131,108",
+                        "endOffsets": "1645,1692,1824,1933"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "logs": [
+        {
+            "outputFile": "W:\\Nikola crypto\\smartcar_crypto_android_user\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\asher\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\a0716d718c4ecfa2330f5b0ccb09fea3\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\asher\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\52a6cebbc80655e354a451884606b6cd\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\asher\\.gradle\\caches\\transforms-1\\files-1.1\\card-form-2.3.2.aar\\b3f85e1590b960f556aaec153e63296c\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "234"
+                    },
+                    "to": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "294",
+                        "endLines": "10",
+                        "endColumns": "12",
+                        "endOffsets": "473"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\asher\\.gradle\\caches\\transforms-1\\files-1.1\\drop-in-2.3.8.aar\\bb683a3feba6aa57bf4a67df5fb89ab9\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "245"
+                    },
+                    "to": {
+                        "startLines": "11",
+                        "startColumns": "4",
+                        "startOffsets": "478",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "668"
+                    }
+                }
+            ]
+        }
+    ]
+}

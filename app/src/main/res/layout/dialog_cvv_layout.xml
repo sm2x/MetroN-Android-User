@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/cvvBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_left_arrow"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"/>
+
+    <com.tronline.user.CustomText.CustomBoldRegularTextView
+        android:id="@+id/paymentHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:text="Payment Options"
+        android:textSize="22sp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/addCardLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:orientation="vertical">
+    <com.tronline.user.CustomText.CustomRegularTextView
+        android:id="@+id/cardNumberCVV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:text="You can add TRX token to your wallet by:"
+        android:textSize="18sp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:visibility="gone">
+
+        <com.tronline.user.CustomText.CustomRegularTextView
+            android:id="@+id/cardCVV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cvv"
+            android:textColor="@color/deep_grey"
+            android:textSize="20sp"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"/>
+
+        <com.tronline.user.CustomText.CustomRegularEditView
+            android:id="@+id/CVVcard"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:layout_below="@+id/cardCVV"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:gravity="center"
+            android:inputType="numberPassword"
+            android:layout_centerInParent="true"/>
+
+
+        <com.tronline.user.CustomText.CustomRegularTextView
+            android:id="@+id/lineCVV"
+            android:layout_width="100dp"
+            android:layout_height="1dp"
+            android:text="cvv"
+            android:textColor="@color/deep_grey"
+            android:textSize="20sp"
+            android:background="@color/black"
+            android:layout_below="@+id/CVVcard"
+            android:layout_centerInParent="true"/>
+
+
+    </RelativeLayout>
+
+    <com.tronline.user.CustomText.CustomBoldRegularTextView
+        android:id="@+id/confirmCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adding a Payment Card"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:clickable="false"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:background="@drawable/rounded_button_cvv_grey"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+        <TextView
+            android:id="@+id/cardNumberC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:textColor="@color/black"
+            android:text="(Disabled for demo purpose)"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/cardNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="or"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/cardNumberQ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textStyle="normal"
+            android:textColor="@color/black"
+            android:text="By transferring TRX tokens directly to your wallet here (from exchanges etc.)"
+            android:textSize="15sp"/>
+
+
+    <com.tronline.user.CustomText.CustomBoldRegularTextView
+        android:id="@+id/confirmQR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Directly Top-up your Tron Wallet"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:background="@drawable/rounded_button_cvv_green"
+        android:layout_margin="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/qrLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp">
+        <ImageView
+            android:id="@+id/imageQr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center" />
+        <TextView
+            android:id="@+id/tv_trx_addres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_trx_value"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:layout_marginTop="0dp"
+            android:text="@string/tron_wallet_address"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+        <TextView
+            android:id="@+id/tv_trx_addressQR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_trx_value"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="TjkdnvklnsdclkaSFOBJKVNDLVNLSDVKNDN CDNFDKFN"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tv_trx_calculator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_trx_value"
+            android:layout_centerInParent="true"
+            android:gravity=""
+            android:layout_marginTop="10dp"
+            android:singleLine="true"
+            android:text="Calculator"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+        <com.tronline.user.CustomText.CustomRegularEditView
+            android:id="@+id/et_enter_amountQR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/square_editbox"
+            android:hint="Enter Amount"
+            android:inputType="numberDecimal"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textSize="20sp" />
+
+
+        <LinearLayout
+            android:id="@+id/valueLay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_alignParentLeft="true"
+            android:gravity=""
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_trx_value_note"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="0dp"
+                android:gravity=""
+                android:text="@string/you_will_get_trx"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/tv_trx_value_amountQR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="0dp"
+                android:gravity=""
+                android:text="0"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/addressTronValueLay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            android:gravity=""
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/valueLay">
+
+            <TextView
+                android:id="@+id/tv_trx_val"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/valueLay"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="@string/present_day_value_of_1_trx"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:textStyle="italic" />
+            <TextView
+                android:id="@+id/tv_trx_valueQR"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/valueLay"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="10dp"
+                android:gravity=""
+                android:text="$ 0.012345"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tv_trx_note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:gravity=""
+            android:text="Note: You can directly top-up your Tron wallet here by sending TRX to the above address ( from any exchange etc. )"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+        <com.tronline.user.CustomText.CustomBoldRegularTextView
+            android:id="@+id/doneQR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Done"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:background="@drawable/rounded_button_cvv_green"
+            android:layout_margin="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="10dp"/>
+    </LinearLayout>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

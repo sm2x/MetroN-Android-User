@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "W:\\Nikola crypto\\smartcar_crypto_android_user\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh\\values-zh.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\asher\\.gradle\\caches\\transforms-1\\files-1.1\\stripe-android-5.0.0.aar\\1767b2c928800755c996f4fda0f943df\\res\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,110,167,214,267,318,369,425,477,542,606,657,720,771",
+                        "endColumns": "54,56,46,52,50,50,55,51,64,63,50,62,50,53",
+                        "endOffsets": "105,162,209,262,313,364,420,472,537,601,652,715,766,820"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "100,155,212,259,566,617,668,724,776,841,905,956,1019,1070",
+                        "endColumns": "54,56,46,52,50,50,55,51,64,63,50,62,50,53",
+                        "endOffsets": "150,207,254,307,612,663,719,771,836,900,951,1014,1065,1119"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\asher\\.gradle\\caches\\transforms-1\\files-1.1\\android-crop-1.0.1.aar\\0aab2449cf3e5e286376826ad8ed1314\\res\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "215,283,325,376,425",
+                        "endColumns": "67,41,50,48,43",
+                        "endOffsets": "278,320,371,420,464"
+                    },
+                    "to": {
+                        "startLines": "6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "312,380,422,473,522",
+                        "endColumns": "67,41,50,48,43",
+                        "endOffsets": "375,417,468,517,561"
+                    }
+                }
+            ]
+        }
+    ]
+}

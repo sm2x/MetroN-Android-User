@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/request_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_gravity="bottom"
+    android:background="@drawable/rounded_white_bg"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="10dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_gravity="center">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/lst_vehicle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:orientation="horizontal"></android.support.v7.widget.RecyclerView>
+        <ProgressBar
+            android:id="@+id/load_progress"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/instruction_lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lst_vehicle"
+            android:layout_margin="4dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/alert_circle_outline" />
+
+            <com.tronline.user.CustomText.CustomRegularTextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:text="@string/txt_fare_note"
+                android:textColor="@color/black"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/v_"
+            android:layout_width="wrap_content"
+            android:layout_height="0.01dp"
+            android:layout_below="@+id/instruction_lay"
+            android:layout_margin="5dp"
+            android:visibility="visible"
+            android:background="@color/dark_grey" />
+
+        <RelativeLayout
+            android:id="@+id/lay_payment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/v_"
+            android:layout_margin="10dp"
+            android:clickable="false"
+            android:visibility="visible"
+            android:orientation="horizontal"
+            android:padding="0dp">
+            <LinearLayout
+                android:id="@+id/walletInfoLay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:clickable="false"
+                android:gravity="center"
+                android:visibility="visible">
+
+
+                <com.tronline.user.CustomText.CustomRegularTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="8dp"
+                    android:clickable="false"
+                    android:text="Your Tron Wallet Balance:"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+                <com.tronline.user.CustomText.CustomBoldRegularTextView
+                    android:id="@+id/tv_wallet_info_balance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:clickable="false"
+                    android:text="Loading...."
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@+id/walletInfoLay"
+                android:clickable="false"
+                android:layout_marginTop="10dp"
+                android:visibility="visible">
+
+
+                <com.tronline.user.CustomText.CustomRegularTextView
+                    android:id="@+id/tv_cashtype"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="0dp"
+                    android:clickable="false"
+                    android:text="Your payment type :"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+                <com.tronline.user.CustomText.CustomBoldRegularTextView
+                    android:id="@+id/tv_cashtyp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="3dp"
+                    android:clickable="false"
+                    android:text="Tron Wallet"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_alignParentRight="true"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="0dp">
+                    <com.tronline.user.CustomText.CustomRegularTextView
+                        android:id="@+id/tv_promocode"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Add TRX to your Wallet"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+                    <com.tronline.user.CustomText.CustomBoldRegularTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/black"/>
+                </LinearLayout>
+</RelativeLayout>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/promo_layout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lay_payment"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="10dp"
+            android:clickable="false"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            android:padding="3dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:clickable="false"
+                android:visibility="gone"
+                app:srcCompat="@drawable/ticket_percent" />
+
+            <com.tronline.user.CustomText.CustomRegularTextView
+                android:id="@+id/tv_promocode1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="0dp"
+                android:clickable="false"
+                android:visibility="gone"
+                android:text="Add TRX to your Wallet"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+        </LinearLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+        <com.tronline.user.CustomText.CustomRegularTextView
+            android:id="@+id/btn_request_cab"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_centerInParent="true"
+            android:layout_margin="6dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_button_welcome"
+            android:gravity="center"
+            android:shadowDy="0"
+            android:layout_toLeftOf="@+id/seatsLay"
+            android:text="@string/txt_req_cab"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="22sp" />
+        <LinearLayout
+            android:id="@+id/seatsLay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                app:srcCompat="@drawable/account_outline" />
+
+
+            <com.tronline.user.CustomText.CustomRegularTextView
+                android:id="@+id/tv_no_seats"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+
+</RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

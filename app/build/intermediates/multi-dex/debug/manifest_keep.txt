@@ -1,0 +1,2 @@
+# Referenced at W:\Nikola crypto\smartcar_crypto_android_user\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:67
+-keep class com.tronline.user.app.AppController { <init>(...); }
